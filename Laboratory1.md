@@ -32,13 +32,6 @@ Flow chart:
 
 ![image](https://github.com/user-attachments/assets/ee03c78a-471f-478d-ba0c-4f44303daf1a)
 
-PROGRAM:
-
-Output:
-
-Xn=[1 2 3 4 5]
-
-Xk = 15,-2.50+3.44i,-2.50+0.81i,-2.49-0.81i,-2.49-3.44i 
 
 Output Waveforms:
 
@@ -52,30 +45,60 @@ VIVA QUESTIONS:
            Signal is a free, open-source, encrypted messaging app for instant messaging, voice calls, and video calls, known for its strong privacy features and end-to-end encryption, ensuring only the sender and recipient can read messages. 1D signals represent changes along a single dimension (like time), 2D signals vary across two dimensions (like spatial coordinates), and 3D signals vary across three dimensions (like spatial coordinates and time). 
 
    
-3. Define transform. What is the need for transform?
+2. Define transform. What is the need for transform?
 
    ANSWER:
           transforms are mathematical operations that convert signals from one domain (like time) to another (like frequency) to facilitate analysis and processing. Common transforms include Fourier, Laplace, and Z transforms, each suited for different types of signals and applications. Transforms are crucial because they allow us to analyze and manipulate signals in different domains (time, frequency, etc.), which can reveal insights and facilitate operations that are difficult or impossible in the original domain. 
 
    
-5. Differentiate Fourier transform and discrete Fourier transform.
+3. Differentiate Fourier transform and discrete Fourier transform.
 
    ANSWER:
           The Fourier Transform (FT) analyzes continuous signals in the frequency domain, while the Discrete Fourier Transform (DFT) analyzes discrete signals, transforming them into a frequency domain representation with a finite number of frequency components. 
 
    
-7. Differentiate DFT and DTFT
+4. Differentiate DFT and DTFT
+
+   ANSWER:
+          The Discrete-Time Fourier Transform (DTFT) analyzes the frequency content of an infinite-length discrete-time signal, resulting in a continuous frequency spectrum, while the Discrete Fourier Transform (DFT) analyzes finite-length discrete-time signals, resulting in a discrete frequency spectrum. 
+
+
+5. Explain mathematical formula for calculation of DFT.
+
+   ANSWER:
+          The Discrete Fourier Transform (DFT) formula calculates the frequency-domain representation of a discrete-time signal, given by X(k) = ∑ (from n=0 to N-1) x(n) * e^(-j2πkn/N), where x(n) is the time-domain signal, k is the frequency index, and N is the total number of samples. 
+
+   
+6. Explain mathematical formula for calculation of IDFT.
+
+   ANSWER:
+          The Inverse Discrete Fourier Transform (IDFT) formula converts a sequence in the frequency domain (X[k]) back to the time domain (x[n]), using the formula: x[n] = (1/N) * Σ(X[k] * e^(j2πnk/N)), where 'n' and 'k' range from 0 to N-1, 'N' is the signal length, and 'j' is the imaginary unit. 
+
+   
+7. How to calculate FT for 1-D signal?
 
    ANSWER:
           
 
+   
+8. What is meant by magnitude plot, phase plot, power spectrum?
 
-9. Explain mathematical formula for calculation of DFT.
-10. Explain mathematical formula for calculation of IDFT.
-11. How to calculate FT for 1-D signal?
-12. What is meant by magnitude plot, phase plot, power spectrum?
-13. Explain the applications of DFT.
-14. What are separable transforms?
+   ANSWER:
+          In signal processing and frequency domain analysis, a magnitude plot shows the strength (amplitude) of frequency components, while a phase plot illustrates the phase shift or time delay of those components. A power spectrum represents the distribution of power across different frequencies in a signal. 
+
+   
+9. Explain the applications of DFT.
+
+   ANSWER:
+          
+
+   
+10. What are separable transforms?
+
+   ANSWER:
+          
+
+   
     
 Exercise:
 1. Find 8-point DFT of the sequence x (n) = [1 2 3 4 4 3 2 1]
