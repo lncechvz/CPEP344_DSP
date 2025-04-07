@@ -90,10 +90,10 @@ VIVA QUESTIONS:
 9. Explain the applications of DFT.
 
    ANSWER:
-          
+          DFT (Discrete Fourier Transform) finds numerous applications in fields like signal processing, image processing, and data compression, allowing for analysis and manipulation of data in the frequency domain. 
 
    
-10. What are separable transforms?
+11. What are separable transforms?
 
    ANSWER:
           
