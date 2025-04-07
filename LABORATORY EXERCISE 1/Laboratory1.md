@@ -1,5 +1,12 @@
-Name : Lance
+Name : 
+   Lance Christopher B. Echavez
+
+   Kenn Ivan L. Leguisen
+
 Course and Year :
+
+BSCpE - 3
+
 
 
 I. OBJECTIVES:
@@ -78,8 +85,19 @@ VIVA QUESTIONS:
 7. How to calculate FT for 1-D signal?
 
    ANSWER:
-          
+          The Fourier Transform of the 1-D signal \(f(t)\) is \(F(\omega )\) or \(X_{k}\) depending on whether the signal is continuous or discrete. For discrete 1-D signal, obtain your 1D discrete signal (e.g., x[0], x[1], ..., x[N-1]). Apply the DFT and calculate the DFT of the signal using the formula above or a library function (like fft in MATLAB).
 
+Interpret the Results:
+
+Magnitude: The magnitude of each complex number X[k] represents the amplitude of the corresponding frequency component. 
+
+Phase: The phase (angle) of each complex number X[k] represents the phase shift of the corresponding frequency component. 
+
+Frequency: The frequency index k corresponds to the frequency in the frequency domain. 
+
+After interpreting, plot the magnitude and phase of the DFT output to visualize the frequency content of the signal. 
+
+   
    
 8. What is meant by magnitude plot, phase plot, power spectrum?
 
@@ -96,9 +114,12 @@ VIVA QUESTIONS:
 11. What are separable transforms?
 
    ANSWER:
-          
+          Separable transforms, in the context of signal and image processing, are those that can be expressed as a product of two 1-D transforms, one applied to the rows and the other to the columns of the data. This allows for efficient computation and is commonly used in video coding and other applications. 
 
    
     
 Exercise:
 1. Find 8-point DFT of the sequence x (n) = [1 2 3 4 4 3 2 1]
+
+![image](https://github.com/user-attachments/assets/f87b45b0-9f4c-4beb-932b-946bc87df199)
+
