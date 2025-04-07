@@ -3,9 +3,7 @@ Name :
 
    Kenn Ivan L. Leguisen
 
-Course and Year :
-
-BSCpE - 3
+Course and Year : BSCpE - 3
 
 
 
@@ -42,7 +40,8 @@ Flow chart:
 
 Output Waveforms:
 
-![image](https://github.com/user-attachments/assets/cdf10f5c-4677-44cd-8919-8bc87d6f4944)
+![image](https://github.com/user-attachments/assets/2ca81127-0cdd-4e9e-b759-cfa18cca80ba)
+
 
 RESULT:
 VIVA QUESTIONS:
