@@ -10,13 +10,17 @@ Course and Year : BSCpE - 3
 I. OBJECTIVES:
 
 In this laboratory exercise, the students are expected to:
+
  find Discrete Fourier Transform and Inverse Discrete Fourier Transform of given digital signal..
 
 II. MATERIALS:
+
  Software: MATLAB
 
 III. PROCEDURE:
+
 THEORY:
+
 Basic equation to find the DFT of a sequence is given below.
 
 ![image](https://github.com/user-attachments/assets/4c0d4550-3a2c-4186-aebe-9740b8fa3221)
@@ -26,11 +30,17 @@ Basic equation to find the IDFT of a sequence is given below.
 ![image](https://github.com/user-attachments/assets/28dc23a5-2053-4bb1-81a5-5167cba4793f)
 
 Algorithm:
+
 Step I: Get the input sequence.
+
 Step II: Find the DFT of the input sequence using direct equation of DFT.
+
 Step III: Find the IDFT using the direct equation.
+
 Step IV: Plot DFT and IDFT of the given sequence using matlab command stem.
+
 Step V: Display the above outputs.
+
 
 
 Flow chart:
@@ -38,13 +48,19 @@ Flow chart:
 ![image](https://github.com/user-attachments/assets/ee03c78a-471f-478d-ba0c-4f44303daf1a)
 
 
-Output Waveforms:
+Output Waves(RESULT):
 
 ![image](https://github.com/user-attachments/assets/2ca81127-0cdd-4e9e-b759-cfa18cca80ba)
 
 
-RESULT:
+
+
+
+
+
+
 VIVA QUESTIONS:
+
 1. Define signal, Give Examples for 1-D, 2-D, 3-D signals.
 
    ANSWER:
@@ -116,8 +132,10 @@ After interpreting, plot the magnitude and phase of the DFT output to visualize 
           Separable transforms, in the context of signal and image processing, are those that can be expressed as a product of two 1-D transforms, one applied to the rows and the other to the columns of the data. This allows for efficient computation and is commonly used in video coding and other applications. 
 
    
+
     
 Exercise:
+
 1. Find 8-point DFT of the sequence x (n) = [1 2 3 4 4 3 2 1]
 
 ![image](https://github.com/user-attachments/assets/f87b45b0-9f4c-4beb-932b-946bc87df199)
